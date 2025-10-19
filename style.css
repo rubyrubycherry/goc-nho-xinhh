@@ -1,0 +1,87 @@
+/* 🌸 Phong cách pastel dịu dàng */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #fffafc;
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+/* 🌷 Thanh tiêu đề */
+header {
+  background: #ffe4ec;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+}
+
+.logo {
+  margin: 0;
+  font-weight: 700;
+  color: #e91e63;
+  letter-spacing: 1px;
+}
+
+/* 🌼 Menu điều hướng */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  margin: 0 12px;
+  transition: all 0.3s ease;
+}
+
+nav a:hover {
+  color: #e91e63;
+  transform: scale(1.1);
+}
+
+nav a.active {
+  color: #e91e63;
+}
+
+/* ✨ Nội dung chính */
+main {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+/* 💕 Thẻ bài nhẹ nhàng */
+.intro-card, .blog-card {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.06);
+  padding: 30px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.intro-card h2, .blog-card h2 {
+  color: #e91e63;
+}
+
+/* 🌙 Chân trang */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #fff0f6;
+  color: #777;
+  font-size: 0.9rem;
+  border-top: 1px solid #f3d6de;
+}
+
+/* 🪞 Hiển thị đẹp trên điện thoại */
+@media (max-width: 600px) {
+  nav a {
+    display: inline-block;
+    margin: 6px;
+  }
+  .intro-card, .blog-card {
+    padding: 20px;
+  }
+}
